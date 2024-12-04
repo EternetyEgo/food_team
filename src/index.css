@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+html {
+  background: white !important;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.hydBtn {
+  background: #03081f !important;
+}
+.hydHero {
+  background: url(./assets/hero.png) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.AbsBtn {
+  background: #fc8a06 !important;
+}
+
+@media(max-width: 1100px){
+    .hydBut {
+        flex-direction: column !important;
+      }
+}
